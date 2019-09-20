@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<title>Contact Info</title>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+			<style>
+				.myForm {
+				font-family: "Helvetica", "Arial", sans-serif;
+				font-size: 1.8em;
+				width: 30em;
+				padding: 1em;
+				}
+
+				.myForm * {
+				box-sizing: border-box;
+				}
+
+				.myForm label {
+				padding: 0;
+				font-weight: bold;
+				text-align: right;
+				display: block;
+				}
+
+				.myForm input,
+				.myForm select,
+				.myForm textarea {
+				margin-left: 2em;
+				float: right;
+				width: 20em;
+				border: 1px solid #ccc;
+				font-family: "Helvetica", "Arial", sans-serif;
+				font-size: 0.8em;
+				padding: 0.3em;
+				}
+
+				.myForm textarea {
+				height: 100px;
+				}
+
+				.myForm button {
+				padding: 1em;
+				border-radius: 0.5em;
+				background: #eee;
+				border: none;
+				font-weight: bold;
+				margin-left: 12em;
+				margin-top: 1.6em;
+				}
+
+				.myForm button:hover {
+				background: #ccc;
+				cursor: pointer;
+				}
+			</style>
+	</head>
+	<body>
+	    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="standard3.css">
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#">Matthew Cooper's Site</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Home Page</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="portfolio.html">Portfolio</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="contact.html">Contact Info <span class="sr-only">(current)</span></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+		<div class="container-fluid mission">
+		  <div class="row">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+				<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+					<p>
+						<label>Name
+						<input type="text" name="customer_name" required>
+						</label>
+					</p>
+
+					<p>
+						<label>Email
+							<input type="email" name="email_address">
+						</label>
+					</p>
+
+					<p>
+						<label>Subject
+							<input type="subject" name="subject_line">
+						</label>
+					</p>
+
+					<p>
+					<label>Enquiry
+					<textarea name="comments" maxlength="500"></textarea>
+					</label>
+					</p>
+
+					<p><button>Submit Enquiry</button></p>
+
+				</form>
+				<div class="col-xs-12 col-sm-12">
+					<form>
+						<button type="button" onclick="window.location.href = 'https://www.linkedin.com/in/matthew-cooper-897049172/';" class="btn btn-info">My Linkedin</button>
+					</form>
+
+				</div>
+		  </div>
+			<div class="alert alert-info" role="alert">
+			  <a href="#" target="_blank" class="alert-link"></a>mattacooper@gmail.com      -     (803) 412-5301
+			</div>
+		</div>
+
+		<div class="jumbotron jumbotron-fluid">
+		  <div class="container">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		    <h1 class="animated fadeInDown"> </h1>
+		  </div>
+		</div>
+
+	</body>
+</html>
